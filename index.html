@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoalOdds — Agenda & Alertas de Jogos</title>
+  <meta name="description" content="GoalOdds: agenda diária, alertas pré-jogo e comparação de odds (informativo). Telegram e redes sociais." />
+  <style>
+    :root{--bg:#0b1020;--card:#111a33;--text:#e7ecff;--muted:#b9c3ff;--accent:#5eead4;--line:#23305a;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial; background:linear-gradient(180deg,var(--bg),#070a14); color:var(--text)}
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:980px; margin:0 auto; padding:28px 18px 56px}
+    .hero{display:grid; gap:14px; padding:26px; border:1px solid var(--line); background:rgba(17,26,51,.75); border-radius:18px}
+    .badge{display:inline-flex; gap:8px; align-items:center; padding:6px 10px; border:1px solid var(--line); border-radius:999px; color:var(--muted); width:max-content}
+    h1{margin:4px 0 0; font-size:34px; line-height:1.15}
+    p{margin:10px 0; color:var(--muted); font-size:16px; line-height:1.55}
+    .grid{display:grid; grid-template-columns:repeat(12,1fr); gap:14px; margin-top:14px}
+    .card{grid-column:span 12; padding:18px; border:1px solid var(--line); background:rgba(17,26,51,.6); border-radius:18px}
+    @media(min-width:820px){
+      .card.half{grid-column:span 6}
+      .card.third{grid-column:span 4}
+    }
+    .title{font-weight:700; font-size:16px; margin:0 0 8px}
+    ul{margin:10px 0 0 18px; color:var(--muted)}
+    .cta{display:flex; flex-wrap:wrap; gap:10px; margin-top:12px}
+    .btn{display:inline-flex; align-items:center; justify-content:center; padding:10px 14px; border-radius:12px; border:1px solid var(--line); background:#0f1730; color:var(--text)}
+    .btn.primary{border-color:rgba(94,234,212,.35); background:rgba(94,234,212,.12)}
+    .footer{margin-top:22px; color:var(--muted); font-size:13px}
+    .hr{height:1px;background:var(--line);margin:12px 0}
+    code{background:#0f1730;border:1px solid var(--line);padding:2px 6px;border-radius:8px;color:var(--text)}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="badge">⚽🏈 GoalOdds • Informativo</div>
+      <h1>Agenda diária, alertas pré-jogo e comparação de odds — do jeito certo.</h1>
+      <p>
+        O <strong>GoalOdds</strong> é um projeto independente de informação esportiva para o público brasileiro.
+        Ele publica <strong>agenda de jogos</strong>, <strong>alertas próximos ao início</strong> e, na evolução do produto,
+        <strong>comparação de odds</strong> entre casas licenciadas.
+      </p>
+
+      <div class="cta">
+        <!-- Troque o link do Telegram quando quiser -->
+        <a class="btn primary" href="#" rel="noopener">📣 Entrar no Telegram</a>
+        <a class="btn" href="mailto:goaloddsbr@gmail.com">✉️ Contato</a>
+      </div>
+
+      <div class="footer">
+        Projeto em evolução. Transparência acima de tudo — e nada de promessas mágicas 😉
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card half">
+        <div class="title">Como funciona</div>
+        <ul>
+          <li><strong>Agenda</strong>: 1x por dia (manhã), com os jogos do pacote de ligas configuradas.</li>
+          <li><strong>Alertas</strong>: enviados perto do jogo (ex.: ~1h antes), sem duplicar (anti-spam).</li>
+          <li><strong>Comparação</strong>: evolução planejada para exibir melhores odds e médias por mercado.</li>
+        </ul>
+      </div>
+
+      <div class="card half">
+        <div class="title">Canais e audiência</div>
+        <ul>
+          <li>Principal canal: <strong>Telegram</strong> (alertas e agenda).</li>
+          <li>Redes sociais: expansão para X (Twitter) e outros canais.</li>
+          <li>Público: usuários no <strong>Brasil</strong> interessados em calendário e comparação informativa.</li>
+        </ul>
+      </div>
+
+      <div class="card third">
+        <div class="title">Modelo de monetização</div>
+        <p>
+          O GoalOdds pode usar <strong>links de afiliado</strong>. Isso <strong>não altera</strong> a odd do usuário.
+          Links aparecem de forma <strong>limitada</strong> e apenas quando fizer sentido (ex.: alertas).
+        </p>
+      </div>
+
+      <div class="card third">
+        <div class="title">Jogo responsável</div>
+        <p>
+          GoalOdds <strong>não</strong> oferece dicas, sinais, garantias ou promessas de lucro.
+          Conteúdo é <strong>informativo</strong>. Aposte com responsabilidade e somente se for maior de idade.
+        </p>
+      </div>
+
+      <div class="card third">
+        <div class="title">Compliance (importante)</div>
+        <p>
+          Evitamos “spam” e repetição. Usamos cache anti-duplicação e enviamos apenas mensagens relevantes.
+          Objetivo: <strong>informar</strong> e <strong>comparar</strong>, com transparência.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="title">Informações para parceiros</div>
+        <div class="hr"></div>
+        <p>
+          <strong>Projeto:</strong> GoalOdds (agenda + alertas + comparação) <br/>
+          <strong>País-alvo:</strong> Brasil <br/>
+          <strong>Tipo de tráfego:</strong> Content / Comparison <br/>
+          <strong>Contato:</strong> <a href="mailto:goaloddsbr@gmail.com">goaloddsbr@gmail.com</a>
+        </p>
+        <p>
+          Repositório do bot (automação): <code>goalodds-bot</code> (GitHub Actions).
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      © GoalOdds — projeto informativo. Última atualização: <script>document.write(new Date().toLocaleDateString('pt-BR'))</script>
+    </div>
+  </div>
+</body>
+</html>
